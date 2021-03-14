@@ -1,5 +1,17 @@
+@media (max-width: 960px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+  }
+}
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #5e63b6;
   --background-color: #f9f7fe;
   --main-font-family: "Poppins", sans-serif;
   --title-font-family: "Playfair Display", serif;
@@ -27,44 +39,44 @@ h1 {
   line-height: 1.5;
   color: black;
 }
-h2 {
+h2,
+.feature-heading {
   font-size: 24px;
   font-weight: medium;
 }
-.hero p {
+.hero p,
+.project-name {
   font-size: 36px;
 }
 .contact-btn {
   background: var(--branding-color);
   border-radius: 4px solid var(--branding-color);
-  font-size: 18px;
+  font-size: 21px;
   font-weight: medium;
   height: 63px;
   width: 200px;
   padding: 15px 30px;
+}
+.contact-btn:hover {
+  background: var(--background-color);
+  border-radius: 4px solid var(--branding-color);
+  color: var(--branding-color);
 }
 .learn-more-btn {
   background: var(--background-color);
   color: var(--branding-color);
   border-radius: 4px solid var(--branding-color);
-  font-size: 18px;
+  font-size: 21px;
   font-weight: medium;
   height: 63px;
   width: 200px;
   padding: 15px 30px;
 }
+.learn-more-btn:hover {
+  background: var(--branding-color);
+  color: var(--background-color);
+  border-radius: 4px solid var(--branding-color);
+}
 .project-description {
   padding: 120px 60px;
-}
-@media (max-width: 960px) {
-  .hero {
-    padding: 80px 20px;
-  }
-  .project-description {
-    padding: 0px;
-    text-align: center;
-  }
-  h1 {
-    font-size: 44px;
-  }
 }
