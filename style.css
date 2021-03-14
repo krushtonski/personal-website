@@ -1,10 +1,44 @@
-* {
-  font-family: "Poppins", sans-serif;
-  font-family: "Playfair Display", serif;
+:root {
+  --branding-color: #6c63ff;
+  --background-color: #f9f7fe;
+  --main-font-family: "Poppins", sans-serif;
+  --title-font-family: "Playfair Display", serif;
+}
+body {
+  font-family: var(--main-font-family);
+}
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+h1,
+.hero p {
+  font-weight: bold;
+}
+h2,
+.hero p {
+  color: #272142;
 }
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--title-font-family);
+  font-size: 96px;
+  color: black;
 }
 h2 {
-  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: medium;
+}
+.hero p {
+  font-size: 36px;
+}
+.contact-btn {
+  background: var(--branding-color);
+  font-size: 18px;
+  font-weight: medium;
+  height: 63px;
+  width: 200px;
+  border-radius: 4px;
+  padding: 15px 30px;
 }
