@@ -6,6 +6,12 @@
     padding: 0px;
     text-align: center;
   }
+  .feature-heading {
+    margin-bottom: 0px;
+  }
+  .projects {
+    margin: 0px;
+  }
   h1 {
     font-size: 44px;
   }
@@ -79,4 +85,10 @@ h2,
 }
 .project-description {
   padding: 120px 60px;
+}
+img {
+  height: 50%;
+}
+.reference {
+  margin: 40px;
 }
