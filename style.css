@@ -68,7 +68,7 @@ nav li.active a {
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h1,
@@ -172,7 +172,7 @@ footer .contact-box p {
 }
 /* About and Work Sections Styling */
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
