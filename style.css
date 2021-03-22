@@ -15,6 +15,12 @@
   h1 {
     font-size: 44px;
   }
+  h4 {
+    font-size: 18px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
   /* About Section */
   .about-section {
     text-align: center;
@@ -85,20 +91,24 @@ h2,
   font-size: 24px;
   font-weight: medium;
 }
+h4 {
+  font-size: 48px;
+}
 .hero p,
 .project-name {
   font-size: 36px;
 }
-.contact-btn {
+.btn-primary {
   background: var(--branding-color);
   border-radius: 4px solid var(--branding-color);
+  color: var(--background-color);
   font-size: 21px;
   font-weight: medium;
   height: 63px;
   width: 200px;
   padding: 15px 30px;
 }
-.contact-btn:hover {
+.btn-primary:hover {
   background: var(--background-color);
   border-radius: 4px solid var(--branding-color);
   color: var(--branding-color);
@@ -123,6 +133,39 @@ h2,
 }
 img {
   height: 50%;
+}
+/* Footer */
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--background-color);
+  color: var(--branding-color);
+  transition: all 150s ease-in-out;
+}
+footer .social-links a:hover {
+  background: var(--branding-color);
+  color: white;
+}
+footer .contact-box {
+  background: var(--background-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0px;
 }
 .reference {
   margin: 40px;
