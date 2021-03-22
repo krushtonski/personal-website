@@ -30,6 +30,35 @@
 body {
   font-family: var(--main-font-family);
 }
+/* Index html page */
+/* Navigation */
+nav {
+  display: inline;
+  list-style: none;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.logo {
+  max-width: 150px;
+}
+/* Hero */
 .hero {
   background-color: var(--background-color);
   text-align: center;
@@ -44,6 +73,7 @@ h2,
 .hero p {
   color: #272142;
 }
+/* Rest of page */
 h1 {
   font-family: var(--title-font-family);
   font-size: 96px;
@@ -97,19 +127,26 @@ img {
 .reference {
   margin: 40px;
 }
-/* About Section Styling */
-.about-section {
+/* About and Work Sections Styling */
+.content-container {
   padding: 160px 20px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section p {
-  font-size: 18px;
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--main-font-family: "Poppins", sans-serif;);
+}
+.content p {
+  font-size: 16px;
+  margin: 0px;
 }
 .about-btn {
   background: var(--branding-color);
