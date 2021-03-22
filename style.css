@@ -15,6 +15,11 @@
   h1 {
     font-size: 44px;
   }
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
 }
 :root {
   --branding-color: #5e63b6;
@@ -91,4 +96,32 @@ img {
 }
 .reference {
   margin: 40px;
+}
+/* About Section Styling */
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section p {
+  font-size: 18px;
+}
+.about-btn {
+  background: var(--branding-color);
+  border-radius: 4px solid var(--branding-color);
+  font-size: 21px;
+  font-weight: medium;
+  height: 63px;
+  width: 260px;
+  padding: 15px 30px;
+}
+.about-btn:hover {
+  background: var(--background-color);
+  border-radius: 4px solid var(--branding-color);
+  color: var(--branding-color);
 }
