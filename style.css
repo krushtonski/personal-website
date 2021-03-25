@@ -78,7 +78,7 @@ nav li.active a {
   margin-top: 5px;
   margin-bottom: 0px;
 }
-/* 1. Hero */
+/* HERO */
 .hero {
   background-color: rgba(var(--background-color), 0.2);
   text-align: center;
@@ -143,7 +143,10 @@ p {
   color: rgba(var(--background-color), 1);
   border-radius: 4px solid var(--primary-color);
 }
-/* Cover Page Projects */
+/* PROJECTS */
+.featured-projects {
+  opacity: 50%;
+}
 .project-description {
   padding: 120px 60px;
 }
