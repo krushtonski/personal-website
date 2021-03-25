@@ -199,8 +199,8 @@ footer .contact-box p {
   .btn-primary,
   .learn-more-btn,
   .about-btn {
-    font-size: 12px;
-    max-width: 150px;
+    font-size: 16px;
+    max-width: 120px;
     max-height: 44px;
   }
   footer .contact-box {
