@@ -2,6 +2,9 @@
   .hero {
     padding: 80px 20px;
   }
+  .nav-name {
+    display: none;
+  }
   .project-description {
     padding: 0px;
     text-align: center;
@@ -52,6 +55,7 @@ nav ul {
 }
 nav li {
   margin-top: 5px;
+  margin-bottom: 0px;
   display: inline;
   list-style: none;
   line-height: 42px;
@@ -68,8 +72,11 @@ nav li.active a {
 }
 .nav-name {
   font-family: var(--title-font-family);
+  font-weight: bold;
+  opacity: 50%;
   max-width: 300px;
   margin-top: 5px;
+  margin-bottom: 0px;
 }
 /* 1. Hero */
 .hero {
@@ -78,10 +85,14 @@ nav li.active a {
   padding: 80px 20px;
 }
 /* Rest of page */
-h1 {
+.hero h1 {
   font-family: var(--title-font-family);
   font-size: 72px;
   line-height: 1.5;
+  color: black;
+}
+h1 {
+  font-size: 68px;
   color: black;
 }
 h2 {
@@ -128,6 +139,7 @@ p {
   color: rgba(var(--background-color), 1);
   border-radius: 4px solid var(--primary-color);
 }
+/* Cover Page Projects */
 .project-description {
   padding: 120px 60px;
 }
@@ -145,20 +157,17 @@ footer .email-link:hover {
   color: var(--primary-color);
 }
 footer .social-links a {
-  margin: 0 20px;
-  padding: 10px;
-  font-size: 21px;
-  width: 21px;
-  height: 21px;
-  border-radius: 50%;
-  background: rgba(var(--background-color), 0.2);
+  margin: 40px;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
   color: var(--primary-color);
   transition: all 150s ease-in-out;
 }
 footer .social-links a:hover {
-  background: var(--primary-color);
-  color: white;
+  color: var(--secondary-color);
 }
+/* Contact Information */
 footer .contact-box {
   background: rgba(var(--background-color), 0.2);
   padding: 30px 120px;
@@ -167,6 +176,7 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0px;
 }
+/* Reference */
 .reference {
   margin: 40px;
 }
