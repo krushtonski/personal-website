@@ -91,7 +91,8 @@ p {
   color: var(--primary-color);
 }
 /* Secondary buttons */
-.learn-more-btn {
+.learn-more-btn,
+.about-btn {
   background: rgba(var(--background-color), 0.2);
   color: var(--primary-color);
   box-shadow: 2px 2px 2px var(--tertiary-color);
@@ -107,7 +108,7 @@ p {
   color: rgba(var(--background-color), 1);
   border-radius: 4px solid var(--primary-color);
 }
-/* PROJECTS */
+/* projects */
 .featured-projects {
   opacity: 0.5;
 }
@@ -157,35 +158,18 @@ footer .contact-box p {
   margin: 40px;
 }
 /* About and Work Sections Styling */
+/* About Section */
 .content-container {
   padding: 60px 20px;
 }
 .content {
   margin: 30px;
 }
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
 .content h3 {
-  font-size: 24px;
-  line-height: 1.5;
   margin: 20px 0 0;
 }
 .content p {
-  font-size: 16px;
   margin: 0px;
-}
-.about-btn {
-  color: var(--primary-color);
-  font-size: 21px;
-  font-weight: medium;
-  height: 63px;
-  width: 260px;
-  padding: 15px 30px;
-}
-.about-btn:hover {
-  color: var(--secondary-color);
 }
 @media (max-width: 900px) {
   .hero {
