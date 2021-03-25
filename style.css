@@ -75,7 +75,7 @@ nav li.active a {
   font-weight: bold;
   opacity: 50%;
   max-width: 300px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 /* HERO */
@@ -148,6 +148,7 @@ p {
   opacity: 50%;
 }
 .project-description {
+  text-align: center;
   padding: 120px 60px;
 }
 img {
@@ -176,7 +177,7 @@ footer .social-links a:hover  {
   background: var(--secondary-color);
   color: var(--secondary-color);
 }
-/* Contact Boxn */
+/* Contact Box */
 footer .contact-box {
   background: rgba(var(--background-color), 0.2);
   padding: 30px 120px;
