@@ -2,15 +2,23 @@
   .hero {
     padding: 80px 20px;
   }
-  .index-image {
-    margin: 0px;
-  }
+  .index-image,
   .project-description {
+    margin: 0px;
     padding: 0px;
     text-align: center;
   }
   h1 {
-    font-size: 34px;
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
   }
   footer .contact-box {
     padding: 30px;
