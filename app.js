@@ -1,4 +1,4 @@
-const texts = [`project manager`,`community strategist`,`UX designer`, `frontend developer`, `nature lover`];
+const texts = [`Project Manager`,`Community Strategist`,`UX Designer`, `Frontend Developer`, `Nature Lover`];
 let count = 0;
 let index = 0;
 let currentText = ``;
@@ -16,5 +16,5 @@ if(letter.length === currentText.length){
     count++;
     index = 0;
 }
-setTimeout(type,150);
+setTimeout(type,200);
 }());

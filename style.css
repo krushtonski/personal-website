@@ -13,7 +13,7 @@
     margin: 0px;
   }
   h1 {
-    font-size: 44px;
+    font-size: 64px;
   }
   h4 {
     font-size: 18px;
@@ -32,12 +32,13 @@
   --secondary-color: hsl(192, 25%, 64%);
   --tertiary-color: #908a63;
   --background-color: 236, 229, 209;
-  --primary-text-color: black;
+  --second-background-color: white;
   --main-font-family: "Roboto", sans-serif;
   --title-font-family: "Fira Sans", sans-serif;
 }
 body {
   font-family: var(--main-font-family);
+  color: var(--primary-color);
 }
 /* Index html page */
 /* Navigation */
@@ -50,6 +51,7 @@ nav ul {
   padding: 0;
 }
 nav li {
+  margin-top: 5px;
   display: inline;
   list-style: none;
   line-height: 42px;
@@ -65,60 +67,38 @@ nav li.active a {
   color: var(--secondary-color);
 }
 .nav-name {
+  font-family: var(--title-font-family);
   max-width: 300px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
-/* Hero */
+/* 1. Hero */
 .hero {
   background-color: rgba(var(--background-color), 0.2);
-  text-align: left;
+  text-align: center;
   padding: 80px 20px;
-}
-.hero-content {
-  margin-left: 90px;
-  opacity: 1;
-}
-/* Animated text for "I am" */
-.intro {
-  display: flex;
-  background-size: cover;
-}
-.hero h1 {
-  font-weight: medium;
-  font-size: 72px;
-}
-h1,
-h2,
-p {
-  color: var(--primary-color);
-}
-h2,
-.hero p {
-  color: #272142;
 }
 /* Rest of page */
 h1 {
   font-family: var(--title-font-family);
-  font-size: 96px;
+  font-size: 72px;
   line-height: 1.5;
   color: black;
 }
-h2,
-.feature-heading {
-  font-size: 24px;
+h2 {
+  font-size: 42px;
   font-weight: medium;
 }
-h4 {
-  font-size: 48px;
-}
-.hero p,
-.project-name {
+h3 {
   font-size: 36px;
 }
+p {
+  font-size: 24px;
+}
+/* Main button */
 .btn-primary {
   background: var(--primary-color);
   border-radius: 4px solid var(--primary-color);
-  color: var(--background-color);
+  color: rgba(var(--background-color), 1);
   box-shadow: 2px 2px 2px var(--tertiary-color);
   font-size: 21px;
   font-weight: medium;
@@ -127,13 +107,15 @@ h4 {
   padding: 15px 30px;
 }
 .btn-primary:hover {
-  background: var(--background-color);
+  background: rgba(var(--background-color), 0.2);
   border-radius: 4px solid var(--primary-color);
   color: var(--primary-color);
 }
+/* Secondary buttons */
 .learn-more-btn {
-  background: var(--background-color);
+  background: rgba(var(--background-color), 0.2);
   color: var(--primary-color);
+  box-shadow: 2px 2px 2px var(--tertiary-color);
   border-radius: 4px solid var(--primary-color);
   font-size: 21px;
   font-weight: medium;
@@ -143,7 +125,7 @@ h4 {
 }
 .learn-more-btn:hover {
   background: var(--primary-color);
-  color: var(--primary-color);
+  color: rgba(var(--background-color), 1);
   border-radius: 4px solid var(--primary-color);
 }
 .project-description {
@@ -165,11 +147,11 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   padding: 10px;
-  font-size: 18px;
-  width: 18px;
-  height: 18px;
+  font-size: 21px;
+  width: 21px;
+  height: 21px;
   border-radius: 50%;
-  background: var(--background-color);
+  background: rgba(var(--background-color), 0.2);
   color: var(--primary-color);
   transition: all 150s ease-in-out;
 }
@@ -178,7 +160,7 @@ footer .social-links a:hover {
   color: white;
 }
 footer .contact-box {
-  background: var(--background-color);
+  background: rgba(var(--background-color), 0.2);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -203,7 +185,6 @@ footer .contact-box p {
   font-size: 24px;
   line-height: 1.5;
   margin: 20px 0 0;
-  font-family: var(--main-font-family: "Poppins", sans-serif;);
 }
 .content p {
   font-size: 16px;
@@ -219,7 +200,7 @@ footer .contact-box p {
   padding: 15px 30px;
 }
 .about-btn:hover {
-  background: var(--background-color);
+  background: rgba(var(--background-color), 0.2);
   border-radius: 4px solid var(--primary-color);
   color: var(--primary-color);
 }
