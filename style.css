@@ -158,7 +158,7 @@ footer .email-link:hover {
 }
 footer .social-links a {
   color: var(--primary-color);
-  background: var(--tertiary-color);
+  background: rgba(var(--background-color), 0.2);
   font-size: 18px;
   padding: 10px 14px;
   border-radius: 50%;
@@ -167,7 +167,7 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   background: var(--primary-color);
-  color: var(--tertiary-color);
+  color: rgba(var(--background-color), 0.2);
 }
 /* Contact Box */
 footer .contact-box {
