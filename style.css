@@ -91,6 +91,10 @@ nav li.active a {
   line-height: 1.5;
   color: black;
 }
+.hero h2,
+h3 {
+  opacity: 50%;
+}
 h1 {
   font-size: 68px;
   color: black;
@@ -103,7 +107,7 @@ h3 {
   font-size: 36px;
 }
 p {
-  font-size: 24px;
+  font-size: 18px;
 }
 /* Main button */
 .btn-primary {
@@ -149,15 +153,15 @@ img {
 /* Footer */
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--primary-color);
   font-size: 24px;
   text-align: center;
 }
 footer .email-link:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 footer .social-links a {
-  margin: 40px;
+  margin: 0 40px;
   font-size: 32px;
   width: 32px;
   height: 32px;
@@ -167,14 +171,17 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--secondary-color);
 }
-/* Contact Information */
+/* Contact Boxn */
 footer .contact-box {
   background: rgba(var(--background-color), 0.2);
   padding: 30px 120px;
   border-radius: 10px;
 }
+footer .content-box-text {
+  opacity: 100%;
+}
 footer .contact-box p {
-  margin: 0px;
+  font-weight: black;
 }
 /* Reference */
 .reference {
