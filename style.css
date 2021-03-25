@@ -139,8 +139,8 @@ footer .social-links a {
   transition: all 150s ease-in-out;
 }
 footer .social-links a:hover {
-  background: var(--primary-color);
   color: rgba(var(--background-color), 0.2);
+  background: var(--primary-color);
 }
 /* Contact Box */
 footer .contact-box {
@@ -200,11 +200,9 @@ footer .contact-box p {
   .learn-more-btn,
   .about-btn {
     font-size: 12px;
+    text-align: center;
     max-width: 130px;
     max-height: 44px;
-  }
-  .title-non-index {
-    margin-top: 0px;
   }
   footer .contact-box {
     padding: 30px;
