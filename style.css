@@ -203,6 +203,9 @@ footer .contact-box p {
     max-width: 130px;
     max-height: 44px;
   }
+  .title-non-index {
+    margin-top: 10px;
+  }
   footer .contact-box {
     padding: 30px;
   }
@@ -210,8 +213,5 @@ footer .contact-box p {
   .about-section {
     text-align: center;
     padding: 0;
-  }
-  .content {
-    margin: 10px;
   }
 }
