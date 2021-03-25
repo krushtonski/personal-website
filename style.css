@@ -164,11 +164,11 @@ footer .social-links a {
   font-size: 32px;
   width: 32px;
   height: 32px;
-  background: color: var(--primary-color);
+  background: var(--primary-color);
   color: var(--primary-color);
   transition: all 150s ease-in-out;
 }
-footer .social-links a:hover  {
+footer .social-links a:hover {
   background: var(--secondary-color);
   color: var(--secondary-color);
 }
