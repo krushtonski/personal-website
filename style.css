@@ -2,9 +2,6 @@
   .hero {
     padding: 80px 20px;
   }
-  .nav-name {
-    display: none;
-  }
   .project-description {
     padding: 0px;
     text-align: center;
@@ -160,17 +157,17 @@ footer .email-link:hover {
   color: var(--secondary-color);
 }
 footer .social-links a {
-  margin: 0 40px;
-  font-size: 32px;
-  width: 32px;
-  height: 32px;
-  background: var(--primary-color);
   color: var(--primary-color);
+  background: var(--tertiary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 0 20px;
   transition: all 150s ease-in-out;
 }
 footer .social-links a:hover {
-  background: var(--secondary-color);
-  color: var(--secondary-color);
+  background: var(--primary-color);
+  color: var(--tertiary-color);
 }
 /* Contact Box */
 footer .contact-box {
@@ -209,8 +206,7 @@ footer .contact-box p {
   margin: 0px;
 }
 .about-btn {
-  background: var(--primary-color);
-  border-radius: 4px solid var(--primary-color);
+  color: var(--primary-color);
   font-size: 21px;
   font-weight: medium;
   height: 63px;
@@ -218,7 +214,5 @@ footer .contact-box p {
   padding: 15px 30px;
 }
 .about-btn:hover {
-  background: rgba(var(--background-color), 0.2);
-  border-radius: 4px solid var(--primary-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
