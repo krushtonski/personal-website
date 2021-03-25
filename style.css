@@ -196,10 +196,12 @@ footer .contact-box p {
   p {
     font-size: 12px;
   }
-  btn {
+  .btn-primary,
+  .learn-more-btn,
+  .about-btn {
     font-size: 16px;
     max-width: 100px;
-    max-bheight: 44px;
+    max-height: 44px;
   }
   footer .contact-box {
     padding: 30px;
